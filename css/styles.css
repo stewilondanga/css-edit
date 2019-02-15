@@ -17,7 +17,6 @@ body {
   height: 1.5em;
 }
 
-/*
 #csseditor {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 14px;
@@ -37,7 +36,8 @@ body {
   pointer-events: none;
   opacity: 0;
 }
-#csseditor.shown {
+
+/*#csseditor.shown {
   pointer-events: unset;
   opacity: 1;
 }
