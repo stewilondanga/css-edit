@@ -1,3 +1,7 @@
+body {
+  min-height: 100vh;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,9 +25,6 @@
   height: 1.5em;
 }
 
-body {
-  min-height: 100vh;
-}
 
 #csseditor {
   font-family: "IBM Plex Sans", sans-serif;
