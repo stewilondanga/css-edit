@@ -113,12 +113,13 @@ body {
   transform: rotate(-45deg);
 }
 
-/*.csseditor-btn.is-back .line-2 {
+.csseditor-btn.is-back .line-2 {
   top: 28px;
   left: 16px;
   width: 40px;
 }
-.csseditor-btn.is-back .line-3 {
+
+/*.csseditor-btn.is-back .line-3 {
   top: 24px;
   left: 8px;
   width: 32px;
