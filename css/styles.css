@@ -61,7 +61,7 @@ body {
   font-family: "IBM Plex Mono", monospace;
 }
 
-/*.csseditor-btn {
+.csseditor-btn {
   position: fixed;
   top: 0;
   right: 0;
@@ -73,7 +73,8 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-.csseditor-btn .line {
+
+/*.csseditor-btn .line {
   position: absolute;
   left: 8px;
   top: 8px;
