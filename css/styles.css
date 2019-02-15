@@ -96,12 +96,13 @@ body {
   left: 8px;
 }
 
-/*.csseditor-btn .line-3 {
+.csseditor-btn .line-3 {
   top: 48px;
   left: 8px;
   transform-origin: bottom left;
 }
-.csseditor-btn.is-back .line {
+
+/*.csseditor-btn.is-back .line {
   box-shadow: unset;
 }
 .csseditor-btn.is-back .line-1 {
