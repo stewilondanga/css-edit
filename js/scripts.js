@@ -6,9 +6,8 @@ var navigate = (function() {
     $('.' + dataName).toggle();
   });
 })();
-/*
-$(function()
-{
+
+$(function() {
   $(".csseditor-btn").click(function() {
     $(this).toggleClass("is-back")
     $("#csseditor").toggleClass("shown")
