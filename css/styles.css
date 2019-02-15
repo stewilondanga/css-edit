@@ -74,7 +74,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-/*.csseditor-btn .line {
+.csseditor-btn .line {
   position: absolute;
   left: 8px;
   top: 8px;
@@ -84,7 +84,8 @@ body {
   transition: top 0.25s, left 0.25s, transform 0.25s, width 0.25s, box-shadow 0.25s;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
-.csseditor-btn .line-1 {
+
+/*.csseditor-btn .line-1 {
   top: 8px;
   left: 8px;
   transform-origin: top left;
