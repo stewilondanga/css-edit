@@ -106,13 +106,14 @@ body {
   box-shadow: unset;
 }
 
-/*.csseditor-btn.is-back .line-1 {
+.csseditor-btn.is-back .line-1 {
   top: 32px;
   left: 8px;
   width: 32px;
   transform: rotate(-45deg);
 }
-.csseditor-btn.is-back .line-2 {
+
+/*.csseditor-btn.is-back .line-2 {
   top: 28px;
   left: 16px;
   width: 40px;
