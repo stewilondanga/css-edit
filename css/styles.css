@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,107 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#csseditor {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  background: #fafafa;
+  color: #212121;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 9001;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+#csseditor.shown {
+  pointer-events: unset;
+  opacity: 1;
+}
+#csseditor > header {
+  background: #EEEEEE;
+  padding: 8px;
+  font-size: 20px;
+}
+#csseditor > p {
+  margin: 8px;
+  margin-bottom: 0;
+}
+#csseditor > style {
+  display: block;
+  flex-grow: 1;
+  border: 1px solid #E0E0E0;
+  margin: 8px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.csseditor-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9002;
+  height: 64px;
+  width: 64px;
+  transform: scale(0.5);
+  background: #f44336;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.csseditor-btn .line {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  height: 8px;
+  width: 48px;
+  background: #fafafa;
+  transition: top 0.25s, left 0.25s, transform 0.25s, width 0.25s, box-shadow 0.25s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.csseditor-btn .line-1 {
+  top: 8px;
+  left: 8px;
+  transform-origin: top left;
+}
+.csseditor-btn .line-2 {
+  top: 28px;
+  left: 8px;
+}
+.csseditor-btn .line-3 {
+  top: 48px;
+  left: 8px;
+  transform-origin: bottom left;
+}
+.csseditor-btn.is-back .line {
+  box-shadow: unset;
+}
+.csseditor-btn.is-back .line-1 {
+  top: 32px;
+  left: 8px;
+  width: 32px;
+  transform: rotate(-45deg);
+}
+.csseditor-btn.is-back .line-2 {
+  top: 28px;
+  left: 16px;
+  width: 40px;
+}
+.csseditor-btn.is-back .line-3 {
+  top: 24px;
+  left: 8px;
+  width: 32px;
+  transform: rotate(45deg);
 }
 
 .containers {
