@@ -37,11 +37,12 @@ body {
   opacity: 0;
 }
 
-/*#csseditor.shown {
+#csseditor.shown {
   pointer-events: unset;
   opacity: 1;
 }
-#csseditor > header {
+
+/*#csseditor > header {
   background: #EEEEEE;
   padding: 8px;
   font-size: 20px;
