@@ -48,11 +48,12 @@ body {
   font-size: 20px;
 }
 
-/*#csseditor > p {
+#csseditor>p {
   margin: 8px;
   margin-bottom: 0;
 }
-#csseditor > style {
+
+/*#csseditor > style {
   display: block;
   flex-grow: 1;
   border: 1px solid #E0E0E0;
