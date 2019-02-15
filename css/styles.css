@@ -119,14 +119,14 @@ body {
   width: 40px;
 }
 
-/*.csseditor-btn.is-back .line-3 {
+.csseditor-btn.is-back .line-3 {
   top: 24px;
   left: 8px;
   width: 32px;
   transform: rotate(45deg);
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
